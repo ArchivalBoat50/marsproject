@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.relative {
+  position: relative;
+}
+
+
+/*_____div size modifications are declared here_______*/
+/* NOTE: If size is not  pre-class made, style the div */
+.quarter-div {
+  width: 25%;
+}
+
+.half-div {
+  width: 50%;
+}
+
+.div-block {
+  background-color: yellow;
+}
+
+
+
+
+/*____div size modifications___*/
+
+/*____paragraph classes______*/
+.lgp {
+  font-size: 24px;
+}
+.mdp {
+  font-size: 18px;
+}
+.smp {
+  font-size: 12px;
+}
+
+.pimg {
+  position: absolute;
+  top: 10%;
+  width: 50%
+}
+
+.list-pos {
+  position: absolute;
+  top: 25%;
+  width: 50%;
+}
+.list-title {
+  
+}
+
+.p-box {
+  background-color: rgba(0,0,0,0.3);
+  border: 2px solid white;
+  padding: 20px;
+  color: white;
+}
+
+
+/*____paragraph classes___*/
+
+
+
+.bg {
+    /* The image used */
+    background-image: url("http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2016/09/30/776629827588_Digimedia_Mars_Big%20Thinker_09_HTSOM_04_Building%20Shelter_SEQ_v9a_DELIVERY_TXTD.00_00_13_08.Still001.jpg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.main-button {
+padding: 17px;
+background-color: rgba(0, 0, 0,0);
+border: 3px solid white;
+color: white;
+font-weight: bold;
+font-size: 16px;
+transition: background-color 0.5s, color .5s, transform 1s
+}
+
+.main-button:hover {
+  background-color: white;
+  color: black;
+  // transform: rotate(5deg)
+}
+
+.main-heading {
+  font-size: 96px;
+  font-family: Lucida Sans;
+  color: white;
+  text-align: center;
+}
+

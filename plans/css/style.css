@@ -1,0 +1,126 @@
+
+img {
+  border-radius: 10px; 
+}
+
+
+/
+.row {
+  border: 2px solid blue;
+}
+/
+.col-md-6 {
+  border: 2px solid black;
+}
+*/
+
+
+
+img {
+  padding: 10px;
+  background-color: grey;
+}
+.img-desc {
+  font-size:16px;
+  font-weight: bold;
+}
+body {
+  font-family: Biondi;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/31/f1/0e/31f10e82bfebc93cda51978ba7fa2ef1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+}
+
+p {
+  font-size 16px;
+  padding: 10px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.back-button {
+  background-color: rgba(254,254,254,0);
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.back-button-pos {
+  position: relative;
+  left: 60px;
+  top: 50px;
+  width: 150px;
+}
+.back-button:hover {
+  background-color: white; 
+  color: black;
+  border: 2px solid white;
+}
+
+
+.intro-stuff {
+  position: absolute;
+  top: 25%;
+}
+
+#intro-paragraph {
+  background-color: rgba(255,255,255,0.3);
+  font-weight: bold;
+}
+
+#mars-image {
+  padding: 10px;
+  border-radius: 10px; 
+  background-color: rgba(192,192,192,0.5);
+}
+
+.small-image {
+  width: 700px;
+  height 400px;
+  margin: 10px;
+}
+
+
+ .info-stuff-pos {
+  position: absolute; 
+  top: 110%;
+}
+
+.info-p {
+  background-color: rgba(192,192,192,0.5);
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.article-heading {
+  position: relative; 
+  left: 600px;
+  color: grey;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img_girl.jpg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-pos {
+  position: relative; 
+  top: 1350px;
+}
+
+
+
+
